@@ -5,7 +5,7 @@ function ClubCard(props) {
     const { name="智慧商務系學會" } = props;
     const { campus="燕巢" } = props;
     const { content="　　大家好大家好，我們是智慧商務系學會！！內容內容內容內容內容內容內容內容內容，內容內容內容內容內容內容，內容內容內容內容內容內容，內容內容內容內容內容，內容內容內容內容內容，內容內容內容內容內容內容。" } = props;
-    const { image } = props;
+    const { image="https://i.imgur.com/nz6v8fH.png" } = props;
     
     const [isDeptIcOpen, setDeptIcOpen] = useState(false);
     
@@ -25,7 +25,9 @@ function ClubCard(props) {
                 <div className="div88" onClick={openDeptIc}>
                 <div className="div89">瞭解更多</div>
                 </div>
-                <div className="div90" />
+                <div className="div90">
+                    <img width="100%" src={image} title={name} alt="" />
+                </div>
             </div>
             <div className="campus-div2">
                 <div className="text-div">{campus}</div>

@@ -80,7 +80,6 @@ export const Map = () => {
 
   return (
     <>
-    123
     <Stack spacing={1}>
       <Title text="校園指引" />
       <Box sx={{

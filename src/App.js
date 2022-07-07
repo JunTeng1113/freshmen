@@ -15,6 +15,7 @@ function App() {
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
+  console.log(location.pathname);
 
   useEffect(() => {
     if (action !== "POP") {
@@ -66,11 +67,11 @@ function App() {
         maxWidth: "60rem",
         width: '95%',
       }}>
-        123
         <Routes>
           <Route path="/" element={<Map />} />
-
+          <Route path="/map" element={<Map />} />
           <Route path="/club" element={<Club />} />
+          <Route path="*" element={<h2>Not Found 404.</h2>} />
         </Routes>
       </Box>
     </Box>

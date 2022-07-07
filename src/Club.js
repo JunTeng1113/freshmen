@@ -13,7 +13,6 @@ import Box from '@mui/material/Box';
 
 
 export const Club = () => {
-
   return (
     <>
     <Title text="社團資訊" />
