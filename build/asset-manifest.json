@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/freshmen/static/css/main.5f822b21.css",
+    "main.js": "/freshmen/static/js/main.2580baff.js",
+    "index.html": "/freshmen/index.html",
+    "main.5f822b21.css.map": "/freshmen/static/css/main.5f822b21.css.map",
+    "main.2580baff.js.map": "/freshmen/static/js/main.2580baff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f822b21.css",
+    "static/js/main.2580baff.js"
+  ]
+}
