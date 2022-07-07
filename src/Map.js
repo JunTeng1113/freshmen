@@ -12,31 +12,31 @@ import Title from "./Title";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 
-const campusData = {
-  "建工校區": {
-    colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
-    image: "https://i.imgur.com/nz6v8fH.png"
-  }, 
-  "燕巢校區": {
-    colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
-    image: "https://i.imgur.com/eVQtCtL.png"
-  }, 
-  "第一校區": {
-    colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
-    image: "https://i.imgur.com/ATlcBxA.png"
-  }, 
-  "楠梓校區": {
-    colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
-    image: "https://i.imgur.com/2Xv3CsO.png"
-  }, 
-  "旗津校區": {
-    colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
-    image: "https://i.imgur.com/gGtRb3b.png"
-  }, 
-
-}
 
 export const Map = () => {
+  const campusData = {
+    "建工校區": {
+      colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
+      image: "https://i.imgur.com/nz6v8fH.png"
+    }, 
+    "燕巢校區": {
+      colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
+      image: "https://i.imgur.com/eVQtCtL.png"
+    }, 
+    "第一校區": {
+      colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
+      image: "https://i.imgur.com/ATlcBxA.png"
+    }, 
+    "楠梓校區": {
+      colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
+      image: "https://i.imgur.com/2Xv3CsO.png"
+    }, 
+    "旗津校區": {
+      colleges: {"工學院": ["化學工程與材料工程系", "土木工程系", "工業工程與管理系"], "智慧機電學院": ["機械工程系", "模具工程系"], "電機與資訊學院": ["電機工程系", "電子工程系", "資訊工程系"]},
+      image: "https://i.imgur.com/gGtRb3b.png"
+    }, 
+  
+  }
   const [isCampusYcOpen, setCampusYcOpen] = useState(false);
   const [isCampusCjOpen, setCampusCjOpen] = useState(false);
   const [isCampusNjOpen, setCampusNjOpen] = useState(false);
@@ -80,6 +80,7 @@ export const Map = () => {
 
   return (
     <>
+    123
     <Stack spacing={1}>
       <Title text="校園指引" />
       <Box sx={{
