@@ -2,9 +2,9 @@ import { useState, useCallback } from "react";
 import { PortalPopup } from "./PortalPopup";
 import { DeptIc } from "./DeptIc";
 function ClubCard(props) {
-    const { name="智慧商務系學會" } = props;
-    const { campus="燕巢" } = props;
-    const { content="　　大家好大家好，我們是智慧商務系學會！！內容內容內容內容內容內容內容內容內容，內容內容內容內容內容內容，內容內容內容內容內容內容，內容內容內容內容內容，內容內容內容內容內容，內容內容內容內容內容內容。" } = props;
+    const { name="ＯＯＯ社" } = props;
+    const { campus="校區" } = props;
+    const { content="　　大家好大家好，我們是ＯＯＯ社！！內容內容內容內容內容內容內容內容內容，內容內容內容內容內容內容，內容內容內容內容內容內容，內容內容內容內容內容，內容內容內容內容內容，內容內容內容內容內容內容。" } = props;
     const { image="https://i.imgur.com/nz6v8fH.png" } = props;
     
     const [isDeptIcOpen, setDeptIcOpen] = useState(false);
