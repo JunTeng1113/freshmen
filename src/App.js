@@ -3,6 +3,7 @@ import {
   Route,
   useNavigationType,
   useLocation,
+  useNavigate,
 } from "react-router-dom";
 import Box from '@mui/material/Box';
 import { Map } from "./Map";
@@ -12,10 +13,10 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 function App() {
+  const navigate = useNavigate();
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
-  console.log(location.pathname);
 
   useEffect(() => {
     if (action !== "POP") {
@@ -68,7 +69,7 @@ function App() {
         width: '95%',
       }}>
         <Routes>
-          <Route path="/" element={<Map />} />
+          <Route index path="/" element={<Map />} />
           <Route path="/map" element={<Map />} />
           <Route path="/club" element={<Club />} />
           <Route path="*" element={<h2>Not Found 404.</h2>} />

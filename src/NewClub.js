@@ -2,10 +2,19 @@ import "./css/UnitClub.css";
 import "./css/Club.css";
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
+import Link from '@mui/material/Link';
+
+
+import WebIcon from '@mui/icons-material/Web';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
 function Club(props) {
-    const { content } = props;
+    const { content="內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容" } = props;
+    const { image="https://i.imgur.com/nz6v8fH.png" } = props;
     const { name } = props;
-    const { link } = props;
+    const { links={} } = props;
     const { campus } = props;
     return (
         <Box sx={{
@@ -14,35 +23,71 @@ function Club(props) {
             <div className="unit-club">
                 <div>
                     <div className="info-div">
-                        <div className="club-name-div">
-                            <div className="color-block-div" />
-                            <div className="club-name-div1">{name}</div>
-                        </div>
-                        <div className="image-div" />
-                        <div className="links-div">
-                        <img
-                            className="icon-home-icon"
-                            alt=""
-                            src="-icon-home-icon.svg"
-                        />
-                        <img
-                            className="icon-facebook-rect-icon"
-                            alt=""
-                            src="-icon-facebook-rect-icon.svg"
-                        />
-                        <img
-                            className="icon-instagram-alt-icon"
-                            alt=""
-                            src="-icon-instagram-alt-icon.svg"
-                        />
-                        </div>
-                    </div>
-                    <div className="campus-div">
-                        <div className="text-div">{campus}</div>
+                        <Stack>
+                            <div className="club-name-div">
+                                <Box sx={{
+                                    position: 'absolute', 
+                                    top: '15px',
+                                    left: '60px',
+                                    backgroundColor: '#d9d9d9', 
+                                    width: '75px',
+                                    height: '10px',
+                                }} />
+                                {/* <div className="div86" /> */}
+                                <Typography sx={{
+                                    position: 'absolute', 
+                                    width: '100%',
+                                    fontWeight: 'bold',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                }}>{name}</Typography>
+                            </div>
+                            <Box sx={{
+                                backgroundColor: '#d9d9d9',
+                                width: '135px',
+                                height: '87px',
+                            }}>
+                                <img width="100%" src={image} title={name} alt="" />
+                            </Box>
+                            {/* <div className="div90">
+                                <img width="100%" src={image} title={name} alt="" />
+                            </div> */}
+                            <div className="links-div">
+                                { links['web'] && 
+                                <IconButton target="_blank" href={links['web']}>
+                                    <WebIcon />
+                                </IconButton> }
+                                { links['facebook'] && 
+                                <IconButton target="_blank" href={links['facebook']}>
+                                    <FacebookIcon />
+                                </IconButton> }
+                                { links['instagram'] && 
+                                <IconButton target="_blank" href={links['instagram']}>
+                                    <InstagramIcon />
+                                </IconButton> }
+                            </div>
+                        </Stack>
                     </div>
                 </div>
+                <Box sx={{
+                    position: 'absolute',
+                    left: '-0.4rem',
+                    top: '0.2rem',
+                    width: '0.8rem',
+                    height: '2.5rem',
+                    backgroundColor: '#e0c5af',
+                    border: '1px solid #000',
+                }}>
+                    <Typography sx={{
+                        fontSize: '14px',
+                    }}>{campus}</Typography>
+                </Box>
+                {/* <div className="campus-div">
+                    <div className="text-div">{campus}</div>
+                </div> */}
                 <div className="content">
-                    內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容
+                    {content}
                 </div>
             </div>
         </Box>

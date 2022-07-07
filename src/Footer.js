@@ -1,14 +1,16 @@
 import "./css/Map.css";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+
 function Footer() {
     return (
         <div className="div65">
             <div className="national-kaohsiung-university">
                 <p className="p">國立高雄科技大學－學生會</p>
-                <p className="p">
-                National Kaohsiung University of Science and Technology -{" "}
-                </p>
-                <p className="p">Student Association</p>
-                <p className="blank-line-p">@nkust_sa</p>
+                <Typography sx={{ fontSize: '12px'}}>
+                    National Kaohsiung University of Science and Technology - Student Association
+                </Typography>
+                <a className="blank-line-p" target="__blank" href="https://www.instagram.com/nkust_sa/">@nkust_sa</a>
             </div>
         </div>
     )

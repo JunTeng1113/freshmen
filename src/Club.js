@@ -11,7 +11,7 @@ import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
-
+import CLUB_DATAS from "./datas/club.json";
 export const Club = () => {
   return (
     <>
@@ -33,22 +33,23 @@ export const Club = () => {
         rowSpacing={2}
         direction="row"
       >
-        <Grid item >
-          <NewClub name="學生會" />
-        </Grid>
-        <Grid item >
-          <NewClub name="學生議會" />
-        </Grid>
-        <Grid item >
-          <NewClub name="學生議會" />
-        </Grid>
+        {
+          Object.keys(CLUB_DATAS['學生自治組織與自治性社團']).map(name => {
+            const club = CLUB_DATAS['學生自治組織與自治性社團'][name];
+            return (
+              <Grid item >
+                <NewClub name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+              </Grid>
+            )
+          })
+        }
       </Grid>
 
       {/* 系學會 */}
       <SubTitle text="系學會" />
       <Grid
         sx={{ 
-          justifyContent: "space-evenly",
+          justifyContent: "center",
           alignItems: "center", 
           pb: "1rem",
         }}
@@ -56,20 +57,23 @@ export const Club = () => {
         rowSpacing={2}
         direction="row"
       >
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
+      {
+        Object.keys(CLUB_DATAS['系學會']).map(name => {
+          console.log(1);
+          const club = CLUB_DATAS['系學會'][name];
+          return (
+            <Grid item >
+              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+            </Grid>
+          )
+        })
+      }
       </Grid>
       {/* 體能性社團 */}
       <SubTitle text="體能性社團" />
       <Grid
         sx={{ 
-          justifyContent: "space-evenly",
+          justifyContent: "center",
           alignItems: "center", 
           pb: "1rem",
         }}
@@ -77,20 +81,22 @@ export const Club = () => {
         rowSpacing={2}
         direction="row"
       >
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
+      {
+        Object.keys(CLUB_DATAS['體能性社團']).map(name => {
+          const club = CLUB_DATAS['體能性社團'][name];
+          return (
+            <Grid item >
+              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+            </Grid>
+          )
+        })
+      }
       </Grid>
       {/* 康樂性社團 */}
       <SubTitle text="康樂性社團" />
       <Grid
         sx={{ 
-          justifyContent: "space-evenly",
+          justifyContent: "center",
           alignItems: "center", 
           pb: "1rem",
         }}
@@ -98,20 +104,22 @@ export const Club = () => {
         rowSpacing={2}
         direction="row"
       >
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
+      {
+        Object.keys(CLUB_DATAS['康樂性社團']).map(name => {
+          const club = CLUB_DATAS['康樂性社團'][name];
+          return (
+            <Grid item >
+              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+            </Grid>
+          )
+        })
+      }
       </Grid>
       {/* 學藝性社團 */}
       <SubTitle text="學藝性社團" />
       <Grid
         sx={{ 
-          justifyContent: "space-evenly",
+          justifyContent: "center",
           alignItems: "center", 
           pb: "1rem",
         }}
@@ -119,20 +127,22 @@ export const Club = () => {
         rowSpacing={2}
         direction="row"
       >
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
+      {
+        Object.keys(CLUB_DATAS['學藝性社團']).map(name => {
+          const club = CLUB_DATAS['學藝性社團'][name];
+          return (
+            <Grid item >
+              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+            </Grid>
+          )
+        })
+      }
       </Grid>
       {/* 服務性社團 */}
       <SubTitle text="服務性社團" />
       <Grid
         sx={{ 
-          justifyContent: "space-evenly",
+          justifyContent: "center",
           alignItems: "center", 
           pb: "1rem",
         }}
@@ -140,14 +150,16 @@ export const Club = () => {
         rowSpacing={2}
         direction="row"
       >
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
-        <Grid item><ClubCard /></Grid>
+      {
+        Object.keys(CLUB_DATAS['服務性社團']).map(name => {
+          const club = CLUB_DATAS['服務性社團'][name];
+          return (
+            <Grid item >
+              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+            </Grid>
+          )
+        })
+      }
       </Grid>
     </Stack>
     </>

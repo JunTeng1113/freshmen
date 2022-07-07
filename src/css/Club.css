@@ -140,7 +140,7 @@
 }
 .club-name-div {
   width: 135px;
-  height: 20px;
+  height: 30px;
 }
 .club-name-div,
 .icon-home-icon,
@@ -181,7 +181,7 @@
   height: 99.35%;
   top: 0;
   bottom: 0.65%;
-  left: 5.5px;
+  left: 0;
   background-color: #fff;
   border: 1px solid #000;
   box-sizing: border-box;
@@ -221,7 +221,7 @@
 .div74 {
   position: relative;
   width: 350px;
-  height: 148px;
+  height: 161px;
   flex-shrink: 0;
 }
 .frame-div2 {
@@ -324,7 +324,7 @@
   position: absolute;
 }
 .div88 {
-  top: 123px;
+  top: 128px;
   left: 40px;
   border-radius: 2px;
   background-color: #e4d449;
@@ -370,12 +370,12 @@
 .campus-div2,
 .div84,
 .div95 {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .div84 {
   position: relative;
   width: 161px;
-  height: 148px;
+  height: 161px;
   flex-shrink: 0;
 }
 .div95 {
