@@ -1,0 +1,16 @@
+
+.unit-club {
+    position: relative;
+    width: 350px;
+    height: 148px;
+}
+
+.content {
+    position: absolute;
+    top: 6px;
+    left: 168px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    display: inline-block;
+    font-size: 12px;
+}
