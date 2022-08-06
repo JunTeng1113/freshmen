@@ -1,16 +1,28 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { PortalPopup } from "./PortalPopup";
+import PopoverPopupState from "./PopoverPopupState";
 import { DeptIc } from "./DeptIc";
 import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 
 function ClubCard(props) {
-    const { name="ＯＯＯ社" } = props;
-    const { campus="校區" } = props;
-    const { content="　　大家好大家好，我們是ＯＯＯ社！！內容內容內容內容內容內容內容內容內容，內容內容內容內容內容內容，內容內容內容內容內容內容，內容內容內容內容內容，內容內容內容內容內容，內容內容內容內容內容內容。" } = props;
-    const { image="https://i.imgur.com/nz6v8fH.png" } = props;
-    const { links={'web': 'https://ic.nkust.edu.tw/p/412-1075-5717.php?Lang=zh-tw'} } = props;
+    const { data } = props;
+    const [image, setImage] = useState(data.image);
+    const { ord="" } = data;
+    const { classes="" } = data;
+    const { name="" } = data;
+    const { campus="" } = data;
+    const { content="" } = data;
+    const { facebook="" } = data;
+    const { instagram="" } = data;
+    const { other="" } = data;
+    const links = {
+        facebook: facebook,
+        instagram: instagram,
+        other: other
+    }
     
     const [isDeptIcOpen, setDeptIcOpen] = useState(false);
     
@@ -21,6 +33,23 @@ function ClubCard(props) {
     const closeDeptIc = useCallback(() => {
         setDeptIcOpen(false);
     }, []);
+
+    const checkImagePromise = new Promise( (resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve({path: image, status: 'ok'});
+        img.onerror = () => {
+            return reject({path: 'https://community.librenms.org/uploads/default/original/2X/7/759793552edd033b80526884b06a706fdd1a06ba.png', status: 'error'})
+        };
+        
+        img.src = image;
+    });
+    
+    checkImagePromise.then( result => {
+        // 
+    }, function (error) {
+        setImage(error.path);
+    })
+    
 
     return (
         <Box sx={{
@@ -56,36 +85,46 @@ function ClubCard(props) {
                             }}>{name}</Typography>
                         </div>
                         <Box sx={{
-                            backgroundColor: '#d9d9d9',
+                            // backgroundColor: '#d9d9d9',
                             width: '135px',
                             height: '87px',
                         }}>
-                            <img width="100%" src={image} title={name} alt="" />
+                            {/* <img className="club-image" src={image} title={name} alt="找不到圖片" loading="lazy" /> */}
+                            <img className="club-image" src={`./club_images/${"0".repeat(3 - ord.length)}${ord}_${campus}_${classes}_${name}.png`} title={name} alt="找不到圖片" loading="lazy" />
                         </Box>
-                        <div className="div88" onClick={openDeptIc}>
-                            <Typography sx={{
-                                textAlign: 'center',
-                                fontSize: '14px',
-                            }}>瞭解更多</Typography>
-                            {/* <div className="div89">瞭解更多</div> */}
-                        </div>
+                        <Box sx={{
+                            my: '5px',
+                            display: 'flex',
+                            justifyContent: 'center',
+                        }}>
+                            <PopoverPopupState 
+                                title={name} 
+                                content={content === '' ? `歡迎加入${name}！`  : content}
+                                image={image}
+                                links={links}
+                            />
+                        </Box>
                     </Stack>
 
                 </div>
                 <Box sx={{
                     position: 'absolute',
-                    left: '-0.4rem',
-                    top: '0.2rem',
-                    width: '0.8rem',
-                    height: '2.5rem',
+                    left: '0.4rem',
+                    top: '-0.2rem',
+                    width: '4rem',
+                    height: '0.4rem',
                     backgroundColor: '#e0c5af',
-                    border: '1px solid #000',
+                    borderBottom: '1px solid #000',
+                    borderRight: '1px solid #000',
+                    borderLeft: '1px solid #000',
                 }}>
                     <Typography sx={{
-                        fontSize: '14px',
+                        fontWeight: 'bold',
+                        fontSize: '12px',
+                        lineHeight: '0'
                     }}>{campus}</Typography>
                 </Box>
-                {isDeptIcOpen && (
+                {/* {isDeptIcOpen && (
                 <PortalPopup
                     overlayColor="rgba(113, 113, 113, 0.3)"
                     placement="Centered"
@@ -99,9 +138,10 @@ function ClubCard(props) {
                         links={links}
                     />
                 </PortalPopup>
-                )}
+                )} */}
             </div>
         </Box>
     )
 }
+
 export default ClubCard;

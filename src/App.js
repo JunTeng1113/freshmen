@@ -6,7 +6,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import Box from '@mui/material/Box';
-import { Map } from "./Map";
+import { Campus } from "./Campus";
 import { Club } from "./Club";
 import { useEffect } from "react";
 import Header from "./Header";
@@ -25,20 +25,20 @@ function App() {
   }, [action]);
 
   useEffect(() => {
-    let title = "";
+    let title = "111新生資料袋－國立高雄科技大學學生會";;
     let metaDescription = "";
 
     //TODO: Update meta titles and descriptions below
-    switch (pathname) {
-      case "/":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/club":
-        title = "";
-        metaDescription = "";
-        break;
-    }
+    // switch (pathname) {
+    //   case "/":
+    //     title = "";
+    //     metaDescription = "";
+    //     break;
+    //   case "/club":
+    //     title = "";
+    //     metaDescription = "";
+    //     break;
+    // }
 
     if (title) {
       document.title = title;
@@ -69,8 +69,8 @@ function App() {
         width: '95%',
       }}>
         <Routes>
-          <Route index path="/" element={<Map />} />
-          <Route path="/map" element={<Map />} />
+          <Route index path="/" element={<Campus />} />
+          <Route path="/campus" element={<Campus />} />
           <Route path="/club" element={<Club />} />
           <Route path="*" element={<h2>Not Found 404.</h2>} />
         </Routes>

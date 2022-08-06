@@ -12,6 +12,7 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
 import CLUB_DATAS from "./datas/club.json";
+import PARTY_DATAS from "./datas/party.json";
 export const Club = () => {
   return (
     <>
@@ -22,7 +23,7 @@ export const Club = () => {
       spacing={1}
     >
       {/* 學生自治組織與自治性社團 */}
-      <SubTitle text="學生自治組織與自治性社團" />
+      <SubTitle text="學生會" />
       <Grid 
         sx={{ 
           justifyContent: "space-evenly",
@@ -34,14 +35,14 @@ export const Club = () => {
         direction="row"
       >
         {
-          Object.keys(CLUB_DATAS['學生自治組織與自治性社團']).map(name => {
-            const club = CLUB_DATAS['學生自治組織與自治性社團'][name];
-            return (
-              <Grid item >
-                <NewClub name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
-              </Grid>
-            )
-          })
+        PARTY_DATAS.filter(({classes}) => classes === '學生會').map((club) => {
+          return (
+            <Grid item >
+              <NewClub data={club} />
+              {/* <NewClub name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} /> */}
+            </Grid>
+          )
+        })
         }
       </Grid>
 
@@ -58,12 +59,10 @@ export const Club = () => {
         direction="row"
       >
       {
-        Object.keys(CLUB_DATAS['系學會']).map(name => {
-          console.log(1);
-          const club = CLUB_DATAS['系學會'][name];
+        PARTY_DATAS.filter(({classes}) => classes === '系科').map((club) => {
           return (
             <Grid item >
-              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+              <ClubCard data={club} />
             </Grid>
           )
         })
@@ -82,11 +81,10 @@ export const Club = () => {
         direction="row"
       >
       {
-        Object.keys(CLUB_DATAS['體能性社團']).map(name => {
-          const club = CLUB_DATAS['體能性社團'][name];
+        PARTY_DATAS.filter(({classes}) => classes === '體能').map((club) => {
           return (
             <Grid item >
-              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+              <ClubCard data={club} />
             </Grid>
           )
         })
@@ -105,11 +103,10 @@ export const Club = () => {
         direction="row"
       >
       {
-        Object.keys(CLUB_DATAS['康樂性社團']).map(name => {
-          const club = CLUB_DATAS['康樂性社團'][name];
+        PARTY_DATAS.filter(({classes}) => classes === '康樂').map((club) => {
           return (
             <Grid item >
-              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+              <ClubCard data={club} />
             </Grid>
           )
         })
@@ -128,11 +125,10 @@ export const Club = () => {
         direction="row"
       >
       {
-        Object.keys(CLUB_DATAS['學藝性社團']).map(name => {
-          const club = CLUB_DATAS['學藝性社團'][name];
+        PARTY_DATAS.filter(({classes}) => classes === '學藝').map((club) => {
           return (
             <Grid item >
-              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+              <ClubCard data={club} />
             </Grid>
           )
         })
@@ -151,11 +147,10 @@ export const Club = () => {
         direction="row"
       >
       {
-        Object.keys(CLUB_DATAS['服務性社團']).map(name => {
-          const club = CLUB_DATAS['服務性社團'][name];
+        PARTY_DATAS.filter(({classes}) => classes === '服務').map((club) => {
           return (
             <Grid item >
-              <ClubCard name={name} image={club['image']} links={club['links']} content={club['content']}  campus={club['campus']} />
+              <ClubCard data={club} />
             </Grid>
           )
         })

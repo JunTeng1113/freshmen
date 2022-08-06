@@ -1,7 +1,7 @@
 
 .unit-club {
     position: relative;
-    width: 350px;
+    /* width: 350px; */
     height: 161px;
 }
 
@@ -13,4 +13,13 @@
     text-align: left;
     display: inline-block;
     font-size: 12px;
+}
+
+.club-image {
+    object-fit: contain;
+    width: 100%; 
+    height: 100%;
+}
+.image-container {
+    min-height: 100px;
 }

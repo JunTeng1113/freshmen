@@ -11,11 +11,17 @@ import WebIcon from '@mui/icons-material/Web';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 function Club(props) {
-    const { content="內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容 內容內容內容內容內容內容內容" } = props;
-    const { image="https://i.imgur.com/nz6v8fH.png" } = props;
-    const { name } = props;
-    const { links={} } = props;
-    const { campus } = props;
+    const { data } = props;
+    const { ord } = data;
+    const { classes } = data;
+    const { name } = data;
+    const { content="" } = data;
+    const { image="https://i.imgur.com/nz6v8fH.png" } = data;
+    const { web } = data;
+    const { facebook } = data;
+    const { instagram } = data;
+    const links = {web, facebook, instagram};
+    const { campus } = data;
     return (
         <Box sx={{
             width: "350px",
@@ -72,23 +78,26 @@ function Club(props) {
                 </div>
                 <Box sx={{
                     position: 'absolute',
-                    left: '-0.4rem',
-                    top: '0.2rem',
-                    width: '0.8rem',
-                    height: '2.5rem',
+                    left: '0.4rem',
+                    top: '-0.2rem',
+                    width: '4rem',
+                    height: '0.4rem',
                     backgroundColor: '#e0c5af',
-                    border: '1px solid #000',
+                    borderBottom: '1px solid #000',
+                    borderRight: '1px solid #000',
+                    borderLeft: '1px solid #000',
                 }}>
                     <Typography sx={{
-                        fontSize: '14px',
+                        fontWeight: 'bold',
+                        fontSize: '12px',
+                        lineHeight: '0'
                     }}>{campus}</Typography>
                 </Box>
-                {/* <div className="campus-div">
-                    <div className="text-div">{campus}</div>
-                </div> */}
-                <div className="content">
-                    {content}
-                </div>
+            </div>
+            <div className="row align-center">
+                <img className="club-image" src={`./club_images/000_共同_學生會_學生會2.png`} title={name} alt="找不到圖片" loading="lazy" />
+                <img className="club-image" src={`./club_images/000_共同_學生會_學生會1.png`} title={name} alt="找不到圖片" loading="lazy" />
+                <img className="club-image" src={`./club_images/000_共同_學生會_學生會.png`} title={name} alt="找不到圖片" loading="lazy" />
             </div>
         </Box>
     )

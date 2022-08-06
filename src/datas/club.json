@@ -1,600 +1,751 @@
 {
     "學生自治組織與自治性社團": {
         "學生會": {
+            "ord": "0",
             "campus": "共同",
+            "classes": "自治",
             "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+            "content": "大家好，我們是111學年學生會，​\n高科大原有建工與燕巢校區學生會、第一校區學生會、楠梓校區學生會、旗津校區學生會，分別管理各校區事務，因「大專院校學生會運作原則」規定，學校對外僅有一個學生會，故在將在111學年度正式合併，成為一個高科大學生會，負責統籌五校區活動、服務及事務。​\n\n「服務、奉獻、榮譽、創新、卓越」​​\n\n未來的學生會也將以五大精神，​\n繼續服務高科大全體學生，\n創造更好的高科生活，\n已請大家繼續支持學生會，\n讓學生會的服務遍佈在學生的周遭，\n讓學生會的活動充實每個校區角落，\n讓學生的權益真正的落實。\n不論是學生會、社團或是學生，\n也希望你我共同努力，\n讓高科大更加優質。​",
             "links": {
                 "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
+                "facebook": "https://www.facebook.com/%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8-%E5%AD%B8%E7%94%9F%E6%9C%83-105100258936155",
+                "instagram": "https://instagram.com/nkust_sa_111"
             }
-        },
-        "學生議會": {
-            "campus": "共同",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
-        }, 
-        "//": "由此新增「學生自治組織與自治性社團」資料"
+        }
     },
     "系學會": {
         "機械工程系學會": {
-            "campus": "建工",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "建工",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "模具工程系學會": {
-            "campus": "建工",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "建工",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "土木工程系學會": {
-            "campus": "建工",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "建工",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "化學工程與材料工程系學會": {
-            "campus": "建工",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "建工",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "工業工程與管理系學會": {
-            "campus": "建工",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "建工",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "電機工程系學會": {
-            "campus": "建工",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "建工",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "電子工程系學會(建工)": {
-            "campus": "建工",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "建工",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "資訊工程系學會": {
-            "campus": "建工",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "建工",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "會計資訊系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "金融資訊系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "財政稅務系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "智慧商務系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "觀光管理系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "企業管理系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "國際企業系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "文化創意產業系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "人力資源發展系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "能源與冷凍空調工程系學會": {
-            "campus": "燕巢",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "燕巢",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "工業設計系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "機電工程系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "營建工程系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "環境與安全衛生工程系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "電腦與通訊工程系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "電子工程系學會(第一)": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
-        "財務管理系": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "財務管理系學會": {
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
-        "金融系": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "金融系學會": {
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "風險管理與保險系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "行銷與流通管理系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "運籌管理系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "資訊管理系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "應用英語系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "應用日語系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "應用德語系學會": {
-            "campus": "第一",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "半導體工程系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "供應鏈管理系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "海洋休閒管理系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "航運管理系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "商務資訊應用系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "海洋生物技術系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "海洋環境工程系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "水產食品科學系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "漁業生產與管理系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "水產養殖系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "電訊工程系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "造船及海洋工程系學會": {
-            "campus": "楠梓",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "楠梓",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "航運技術系學會": {
-            "campus": "旗津",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "旗津",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "輪機工程系學會": {
-            "campus": "旗津",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "旗津",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "海事資訊科技系學會": {
-            "campus": "旗津",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "旗津",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "//": "由此新增「系學會」資料"
     },
     "體能性社團": {
         "XXX體能性社團": {
-            "campus": "校區",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "OOO體能性社團": {
-            "campus": "校區",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
-        }, 
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
         "//": "由此新增「體能性社團」資料"
     },
     "康樂性社團": {
         "XXX康樂性社團": {
-            "campus": "校區",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "OOO康樂性社團": {
-            "campus": "校區",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
-        }, 
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
         "//": "由此新增「康樂性社團」資料"
     },
     "學藝性社團": {
-        "XXX學藝性社團": {
-            "campus": "校區",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "火藝社": {
+        "campus": "第一",
+        "image": "",
+        "content": "初入大學的你，就如同等待綻放的火苗，在這裡，我們將會引領你認識肢體與火焰交織的美，加入火藝社，讓青春的舞台煥發著不一樣的光彩吧！",
+        "links": {
+            "web": "",
+            "facebook": "",
+            "instagram": "https://instagram.com/nkust_k.f.a?igshid=YmMyMTA2M2Y"
+        }
         },
-        "OOO學藝性社團": {
-            "campus": "校區",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
-        }, 
+        "魔術社": {
+        "campus": "第一",
+        "image": "",
+        "content": "",
+        "links": {
+            "web": "",
+            "facebook": "",
+            "instagram": ""
+        }
+        },
+        "攝影社": {
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "歡迎加入攝影社！",
+        "links": {
+            "web": "",
+            "facebook": "https://www.facebook.com/snapfirst/",
+            "instagram": "https://www.instagram.com/nkust_snap_first/"
+        }
+        },
+        "益智桌上遊戲社": {
+        "campus": "第一",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "本社於民國102年創立，此時正是智慧型手機興盛的時期，手遊、社群媒體使人們交流的時間越來越少。創立宗旨希望大家以桌遊交朋友，開心聚在一起，重拾人與人之間的連結。",
+        "links": {
+            "web": "",
+            "facebook": "https://www.facebook.com/board.game.nkfust/?notif_id=1633548629307248&notif_t=page_user_activity&ref=notif",
+            "instagram": ""
+        }
+        },
+        "OOO學藝性社團 (copy 15)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 14)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 13)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 12)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 11)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 10)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 9)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 8)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 7)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 6)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 5)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 4)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 3)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
+        "OOO學藝性社團 (copy 2)": {
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
         "//": "由此新增「學藝性社團」資料"
     },
     "服務性社團": {
         "XXX服務性社團": {
-            "campus": "校區",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://sa.nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
+        "campus": "校區",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://sa.nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
         },
         "OOO服務性社團": {
-            "campus": "校區",
-            "image": "https://i.imgur.com/2Xv3CsO.png",
-            "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
-            "links": {
-                "web": "http://nkust.edu.tw",
-                "facebook": "fb",
-                "instagram": "ig"
-            }
-        }, 
+        "campus": "旗津",
+        "image": "https://i.imgur.com/2Xv3CsO.png",
+        "content": "約100字的內容，補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字補字",
+        "links": {
+            "web": "http://nkust.edu.tw",
+            "facebook": "fb",
+            "instagram": "ig"
+        }
+        },
         "//": "由此新增「服務性社團」資料"
     }
-}
+    }

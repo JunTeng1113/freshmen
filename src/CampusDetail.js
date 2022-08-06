@@ -19,7 +19,7 @@ function CampusDetail(props) {
                 const Departments = () => {
                     return colleges[college].map(department => {
                         return (
-                            <Typography>{department}</Typography>
+                            <Typography key={department} >{department}</Typography>
                             // <p className="p">
                             //     <span>{department}</span>
                             // </p>
@@ -27,7 +27,7 @@ function CampusDetail(props) {
                     })
                 }
                 return (
-                    <div className="div28">
+                    <div key={college} className="div28">
                         <Typography sx={{
                             fontWeight: 'bold',
                         }}>{college}</Typography>
