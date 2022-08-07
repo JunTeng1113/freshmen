@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/freshmen/static/css/main.93a00387.css",
-    "main.js": "/freshmen/static/js/main.6892cf3f.js",
+    "main.js": "/freshmen/static/js/main.711fb6ed.js",
     "index.html": "/freshmen/index.html",
     "main.93a00387.css.map": "/freshmen/static/css/main.93a00387.css.map",
-    "main.6892cf3f.js.map": "/freshmen/static/js/main.6892cf3f.js.map"
+    "main.711fb6ed.js.map": "/freshmen/static/js/main.711fb6ed.js.map"
   },
   "entrypoints": [
     "static/css/main.93a00387.css",
-    "static/js/main.6892cf3f.js"
+    "static/js/main.711fb6ed.js"
   ]
 }
