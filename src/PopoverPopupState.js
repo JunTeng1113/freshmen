@@ -15,15 +15,10 @@ export default function PopoverPopupState(props) {
         <PopupState variant="popover" popupId="demo-popup-popover">
             {(popupState) => (
             <div>
-                <Button sx={{
-                    width: '75px',
-                    height: '22px',
-                    borderRadius: '0px',
-                    backgroundColor: '#f4e459'
-                }}
+                <button className='club-button'
                 {...bindTrigger(popupState)}>
                     瞭解更多
-                </Button>
+                </button>
                 <Popover
                     {...bindPopover(popupState)}
                     anchorOrigin={{
@@ -36,7 +31,7 @@ export default function PopoverPopupState(props) {
                     }}
                     sx={{
                         p: '10px',
-                        background: 'unset',
+                        background: 'unset'
                     }}
                 >
                     <div className="dept-ic-div">
@@ -44,7 +39,7 @@ export default function PopoverPopupState(props) {
                             <div className="close-button" onClick={popupState.close}>x</div>
                         </div>
                         <div className="image-container">
-                            <img className="club-image" src={image} title={name} alt="" loading="lazy"/>
+                            <img className="club-pop-image" src={image} title={name} alt="" loading="lazy"/>
                         </div>
                         <div className="div416">{title}</div>
                         <div className="div417">

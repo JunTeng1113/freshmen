@@ -94,11 +94,6 @@ function Club(props) {
                     }}>{campus}</Typography>
                 </Box>
             </div>
-            <div className="row align-center">
-                <img className="club-image" src={`./club_images/000_共同_學生會_學生會2.png`} title={name} alt="找不到圖片" loading="lazy" />
-                <img className="club-image" src={`./club_images/000_共同_學生會_學生會1.png`} title={name} alt="找不到圖片" loading="lazy" />
-                <img className="club-image" src={`./club_images/000_共同_學生會_學生會.png`} title={name} alt="找不到圖片" loading="lazy" />
-            </div>
         </Box>
     )
 }

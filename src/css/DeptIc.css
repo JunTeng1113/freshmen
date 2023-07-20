@@ -20,6 +20,8 @@
   letter-spacing: -0.01em;
   color: #626262;
   display: inline-block;
+  max-height: 25vh;
+  overflow: scroll;
 }
 .icon7 {
   max-width: 100%;
@@ -30,7 +32,8 @@
   position: relative;
   border-radius: 5px;
   background-color: #fff;
-  width: min(96vw, 480px);
+  width: min(90vw, 480px);
+  max-height: 90vh;
   display: flex;
   flex-direction: column;
   padding: 15px 20px;

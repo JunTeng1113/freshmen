@@ -15,11 +15,139 @@
     font-size: 12px;
 }
 
-.club-image {
+.sa-image {
     object-fit: contain;
     width: 100%; 
     height: 100%;
+    box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
+.club-image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.club-pop-image {
+    object-fit: contain;
+    width: 30vmax;
+    height: min(30vh, 100%);
+}
+
+@media (min-aspect-ratio: 1/1) {
+    .club-pop-image {
+        width: min(30vw, 100%);
+        height: 30vmin;
+    }
+}
+
 .image-container {
-    min-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sa-button {
+    width: 100%;
+    max-width: 10rem;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #000;
+    border: 0px;
+    background-color: transparent;
+    position: relative;
+    transition: all .3s linear;
+}
+.sa-button > p{
+    position: relative;
+    z-index: 1;
+}
+.sa-button::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s linear;
+}
+.sa-button::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all .3s ease;
+}
+.sa-button:hover::before,
+.sa-button:hover::after{
+    width: 100%;
+    height: 100%;
+}
+
+.club-button {
+    
+    width: 75px;
+    height: 22px;
+    background-color: rgba(244, 228, 89, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #000;
+    border: 0px;
+    border-radius: 0px;
+    /* background-color: transparent; */
+    position: relative;
+    transition: all .3s linear;
+}
+.club-button > p{
+    position: relative;
+    z-index: 1;
+}
+.club-button::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s linear;
+}
+.club-button::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all .3s ease;
+}
+.club-button:hover::before,
+.club-button:hover::after{
+    width: 100%;
+    height: 100%;
+}
+
+.club-button:hover{
+    background-color: rgba(244, 228, 89, 1);
 }

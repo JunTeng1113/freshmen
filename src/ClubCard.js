@@ -9,7 +9,6 @@ import Typography from "@mui/material/Typography";
 
 function ClubCard(props) {
     const { data } = props;
-    const [image, setImage] = useState(data.image);
     const { ord="" } = data;
     const { classes="" } = data;
     const { name="" } = data;
@@ -18,6 +17,7 @@ function ClubCard(props) {
     const { facebook="" } = data;
     const { instagram="" } = data;
     const { other="" } = data;
+    const [image, setImage] = useState(`./club_images/${"0".repeat(3 - ord.length)}${ord}_${campus}_${classes}_${name}.png`);
     const links = {
         facebook: facebook,
         instagram: instagram,
@@ -38,17 +38,42 @@ function ClubCard(props) {
         const img = new Image();
         img.onload = () => resolve({path: image, status: 'ok'});
         img.onerror = () => {
+            switch (campus) {
+                case '建工':
+                    return reject({path: './club_images/建工燕巢校區.png', status: 'error'})
+            
+                case '燕巢':
+                    return reject({path: './club_images/燕巢校區.png', status: 'error'})
+
+                case '建工燕巢':
+                    return reject({path: './club_images/建工燕巢校區.png', status: 'error'})
+
+                case '第一':
+                    return reject({path: './club_images/第一校區.png', status: 'error'})
+
+                case '楠梓':
+                    return reject({path: './club_images/楠梓校區.png', status: 'error'})
+
+                case '旗津':
+                    return reject({path: './club_images/旗津校區.png', status: 'error'})
+
+                default:
+                    break;
+            }
             return reject({path: 'https://community.librenms.org/uploads/default/original/2X/7/759793552edd033b80526884b06a706fdd1a06ba.png', status: 'error'})
         };
         
         img.src = image;
     });
     
-    checkImagePromise.then( result => {
-        // 
-    }, function (error) {
-        setImage(error.path);
-    })
+    useEffect(() => {
+        console.log(123)
+        checkImagePromise.then( result => {
+            //
+        }, function (error) {
+            setImage(error.path);
+        })
+    }, [image])
     
 
     return (
@@ -89,8 +114,9 @@ function ClubCard(props) {
                             width: '135px',
                             height: '87px',
                         }}>
-                            {/* <img className="club-image" src={image} title={name} alt="找不到圖片" loading="lazy" /> */}
-                            <img className="club-image" src={`./club_images/${"0".repeat(3 - ord.length)}${ord}_${campus}_${classes}_${name}.png`} title={name} alt="找不到圖片" loading="lazy" />
+                            {image &&
+                                <img className="club-image" src={image} title={name} alt="找不到圖片" loading="lazy" />
+                            }
                         </Box>
                         <Box sx={{
                             my: '5px',
