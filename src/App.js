@@ -25,7 +25,7 @@ function App() {
   }, [action]);
 
   useEffect(() => {
-    let title = "111新生資料袋－國立高雄科技大學學生會";;
+    let title = "112新生資料袋－國立高雄科技大學學生會";;
     let metaDescription = "";
 
     //TODO: Update meta titles and descriptions below
