@@ -57,7 +57,7 @@ export const Club = () => {
         {/* 學生會連結 */}
         <Grid container spacing={2} align="center" justify="center" alignItems="center" sx={{ my: 3 }} columns={{ xs: 1, sm: 3, md: 3 }}>
               <Grid item xs={1} sm={1} md={1}>
-                <form action='https://www.instagram.com/nkust_sa_111/' target='_blank'>
+                <form action='https://www.instagram.com/nkust_sa/' target='_blank'>
                   <button type='submit' className='sa-button'>
                     <InstagramIcon /><Typography sx={{ p: 1, fontSize: '14px' }}>學生會 IG</Typography> 
                   </button>

@@ -6,7 +6,7 @@ function Header() {
                 <div className="frame-div">
                 <div className="div2" />
                 <div className="freshmen-div">Freshmen</div>
-                <div className="div3">2022</div>
+                <div className="div3">2023</div>
                 <div className="div4">國立高雄科技大學</div>
                 </div>
             </div>
