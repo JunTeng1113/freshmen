@@ -10,7 +10,7 @@ function Footer() {
                 <Typography sx={{ fontSize: '12px', width: "100%"}}>
                     National Kaohsiung University of Science and Technology - Student Association
                 </Typography>
-                <a className="blank-line-p" target="__blank" href="https://www.instagram.com/nkust_sa_111/">@nkust_sa_111</a>
+                <a className="blank-line-p" target="__blank" href="https://www.instagram.com/nkust_sa/">@nkust_sa</a>
             </div>
         </div>
     )
